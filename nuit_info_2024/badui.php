@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Détection des Flèches</title>
-    <link rel="stylesheet" href="./css/badui.css">
+    <link rel="stylesheet" href="css/badui.css">
 </head>
 <body>
     <h1>Appuyez sur les flèches gauche et droite</h1>
