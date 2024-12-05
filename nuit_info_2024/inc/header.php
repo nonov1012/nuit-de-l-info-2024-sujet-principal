@@ -1,6 +1,6 @@
 <?php
 $list_pages = array(
-  'index.php' => 'Acceuil',
+  'index.php' => 'Accueil',
   'services.php' => 'Services',
   'apropos.php' => 'À propos',
   'contact.php' => 'Contact',
