@@ -1,0 +1,97 @@
+body{
+    background-color: #AAB5FF;
+}
+
+
+/* ----------NAVBAR---------- */
+.navbar {
+    background-color: #0920BA;
+    display: flex;
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: space-between; /* Place les blocs aux extrémités */
+    padding: 10px 20px;
+    position: relative; /* Nécessaire pour aligner le centre */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.navbar .logo img {
+    height: 50px; /* Taille du logo */
+    display: block;
+}
+
+/* Navigation Links */
+.navbar .nav-links {
+    position: absolute; /* Permet un alignement précis */
+    left: 50%; /* Aligne au centre horizontal */
+    transform: translateX(-50%); /* Ajuste le décalage pour centrer exactement */
+}
+
+.navbar .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Disposition horizontale */
+    justify-content: center; /* Centre les liens dans leur conteneur */
+    align-items: center; /* Centre verticalement */
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #56a1d0;
+    color: black;
+    transform: translateY(-2px);
+}
+
+/* ----------FOOTER---------- */
+.footer {
+    background-color: #0920BA; /* Même couleur que la navbar */
+    color: white;
+    text-align: center;
+    padding: 20px 10px; /* Espacement intérieur */
+    font-family: "Arial", sans-serif;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2); /* Ombre au-dessus du footer */
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrer les liens */
+    gap: 15px; /* Espacement horizontal entre les liens */
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer a:hover {
+    background-color: #56a1d0; /* Couleur au survol */
+    color: black;
+}
+
+.footer p {
+    margin-top: 10px;
+    font-size: 12px;
+}
