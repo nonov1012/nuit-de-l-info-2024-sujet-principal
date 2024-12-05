@@ -2,39 +2,37 @@ body{
     background-color: #AAB5FF;
 }
 
-
-
 /* ----------NAVBAR---------- */
 .navbar {
     background-color: #0920BA;
     display: flex;
-    align-items: center; /* Centre les éléments verticalement */
-    justify-content: space-between; /* Place les blocs aux extrémités */
+    align-items: center; 
+    justify-content: space-between; 
     padding: 10px 20px;
-    position: relative; /* Nécessaire pour aligner le centre */
+    position: relative; 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Logo */
 .navbar .logo img {
-    height: 50px; /* Taille du logo */
+    height: 50px; 
     display: block;
 }
 
 /* Navigation Links */
 .navbar .nav-links {
-    position: absolute; /* Permet un alignement précis */
-    left: 50%; /* Aligne au centre horizontal */
-    transform: translateX(-50%); /* Ajuste le décalage pour centrer exactement */
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
 }
 
 .navbar .nav-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Disposition horizontale */
-    justify-content: center; /* Centre les liens dans leur conteneur */
-    align-items: center; /* Centre verticalement */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .navbar .nav-links li {
@@ -56,28 +54,26 @@ body{
 }
 
 /* ----------FOOTER---------- */
-/* ----------FOOTER FIXE---------- */
 .footer {
-    background-color: #0920BA; /* Même couleur que le header */
+    background-color: #0920BA; 
     color: white;
     text-align: center;
-    padding: 20px 10px; /* Espacement intérieur */
+    padding: 20px 10px; 
     font-family: "Arial", sans-serif;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2); /* Ombre au-dessus */
-    position: fixed; /* Position fixe */
-    bottom: 0; /* Fixe le footer au bas de la page */
-    width: 100%; /* S'étend sur toute la largeur */
-    z-index: 10; /* Assure qu'il reste au-dessus des autres éléments */
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 10;
 }
-
 
 .footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centrer les liens */
-    gap: 15px; /* Espacement horizontal entre les liens */
+    justify-content: center; 
+    gap: 15px; 
 }
 
 .footer ul li {
@@ -94,7 +90,7 @@ body{
 }
 
 .footer a:hover {
-    background-color: #56a1d0; /* Couleur au survol */
+    background-color: #56a1d0; 
     color: black;
 }
 
@@ -102,7 +98,6 @@ body{
     margin-top: 10px;
     font-size: 12px;
 }
-
 
 .b{
     height: 80%;
