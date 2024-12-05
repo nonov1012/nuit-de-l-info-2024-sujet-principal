@@ -3,6 +3,7 @@ body{
 }
 
 
+
 /* ----------NAVBAR---------- */
 .navbar {
     background-color: #0920BA;
@@ -55,14 +56,20 @@ body{
 }
 
 /* ----------FOOTER---------- */
+/* ----------FOOTER FIXE---------- */
 .footer {
-    background-color: #0920BA; /* Même couleur que la navbar */
+    background-color: #0920BA; /* Même couleur que le header */
     color: white;
     text-align: center;
     padding: 20px 10px; /* Espacement intérieur */
     font-family: "Arial", sans-serif;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2); /* Ombre au-dessus du footer */
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2); /* Ombre au-dessus */
+    position: fixed; /* Position fixe */
+    bottom: 0; /* Fixe le footer au bas de la page */
+    width: 100%; /* S'étend sur toute la largeur */
+    z-index: 10; /* Assure qu'il reste au-dessus des autres éléments */
 }
+
 
 .footer ul {
     list-style-type: none;
@@ -94,4 +101,9 @@ body{
 .footer p {
     margin-top: 10px;
     font-size: 12px;
+}
+
+
+.b{
+    height: 80%;
 }
