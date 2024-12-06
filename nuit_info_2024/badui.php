@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="css/badui.css">
 </head>
 <?php
-include dirname(__FILE__) . "/inc/header.php";
+$nomsite = "IA BUD";
+include dirname(__FILE__) . "/inc/footer.php";
 ?>
 <body>
     <h1>Appuyez sur les flèches gauche et droite</h1>
@@ -27,6 +28,7 @@ include dirname(__FILE__) . "/inc/header.php";
 </body>
 
 <?php
-$nomsite = "IA BUD";
-include dirname(__FILE__) . "/inc/footer.php";
+
+include dirname(__FILE__) . "/inc/header.php";
+
 ?>

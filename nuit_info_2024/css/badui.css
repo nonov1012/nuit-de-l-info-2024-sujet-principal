@@ -1,38 +1,46 @@
 body{
     background-color: #AAB5FF;
+    padding-left: 225px;
+    padding-right: 225px;
 }
 
 /* ----------HEADER---------- */
+
 .navbar {
-    background-color: #0920BA; 
+    background-color: #0920BA;
     color: white;
     position: fixed; 
     top: 0;
-    left: 0;
-    height: 100%; /* Le header occupe toute la hauteur */
-    width: 200px; /* Largeur de la barre latérale */
-    z-index: 20; 
+    right: 0;
+    width: 200px; 
+    height: 100%; 
+    z-index: 10;
     display: flex;
-    flex-direction: column; /* Disposition verticale */
-    justify-content: flex-start; /* Les éléments commencent en haut */
+    flex-direction: column-reverse;
     align-items: center;
     padding: 20px 10px;
-    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2); /* Ombre verticale */
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Logo */
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.navbar .align-right {
+    align-self: flex-end;
+}
+
 .navbar .logo img {
-    height: 60px; /* Taille du logo */
+    height: 60px; 
     display: block;
-    margin-bottom: 20px; /* Espacement avec les liens */
+    margin-bottom: 20px; 
 }
 
-/* Navigation Links */
 .navbar .nav-links {
     display: flex;
     flex-direction: column; /* Organisation verticale */
     align-items: center;
-    width: 100%; /* Prend toute la largeur disponible */
+    width: 100%;
 }
 
 .navbar .nav-links ul {
@@ -40,9 +48,9 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Disposition verticale */
-    gap: 15px; /* Espacement entre les liens */
-    width: 100%; /* Prend toute la largeur */
+    flex-direction: column; 
+    gap: 15px;
+    width: 100%; 
     align-items: center;
 }
 
@@ -55,8 +63,8 @@ body{
     padding: 12px 20px;
     border-radius: 30px;
     text-decoration: none;
-    width: 100%; /* Les liens occupent toute la largeur */
-    text-align: center; /* Texte centré */
+    width: 100%;
+    text-align: center; 
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -68,31 +76,28 @@ body{
 
 
 /* ----------FOOTER---------- */
-.footer {
-    background-color: #0920BA; 
+.footer{
+    background-color: red;
     color: white;
-    text-align: center;
-    padding: 20px 10px; 
-    font-family: "Arial", sans-serif;
-    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2); /* Ombre verticale */
     position: fixed; 
-    top: 0; 
-    left: 0; 
-    height: 100%; /* Le footer occupe toute la hauteur */
-    width: 200px; /* Largeur de la barre */
-    z-index: 10; 
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 10;
     display: flex;
-    flex-direction: column; /* Organisation verticale */
-    justify-content: space-between; /* Espacement entre les éléments */
+    flex-direction: column-reverse;
     align-items: center;
-}
+    padding: 20px 10px;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
 
+}
 .footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Disposition verticale */
+    flex-direction: column; 
     gap: 15px; 
 }
 
@@ -116,5 +121,5 @@ body{
 
 .footer p {
     font-size: 12px;
-    margin-top: 20px; /* Espacement supplémentaire en bas */
+    margin-top: 20px; 
 }
