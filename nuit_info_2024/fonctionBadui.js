@@ -1,7 +1,3 @@
-const navbar = document.getElementById("navbar");
-const body = document.getElementById("body");
-const footer = document.getElementById("footer");
-
 function styleToRadio(body) {
   navbar.classList.toggle("radio");
   body.classList.toggle("radio");
