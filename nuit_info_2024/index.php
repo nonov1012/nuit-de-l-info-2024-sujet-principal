@@ -1,4 +1,4 @@
 <?php
-include 'main.inc.php';
-include 'inc/footer.php';
+include __DIR__ . '/inc/head.php';
+include __DIR__ . '/inc/footer.php';
 ?>

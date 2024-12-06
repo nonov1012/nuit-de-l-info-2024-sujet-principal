@@ -18,7 +18,7 @@ $nomsite = "Nom Site"
 <body>
     <div class="menutop w3-top">
         <?php 
-        include dirname(__FILE__).'/header.php';
+        include 'inc/header.php';
         ?>
     </div>
     <div class="maincontent  w3-display-container w3-center">
