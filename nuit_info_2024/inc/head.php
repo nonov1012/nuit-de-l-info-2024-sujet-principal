@@ -1,5 +1,5 @@
 <?php
-$nomsite = "Nom Site"
+$nomsite = "EAU-LE-SITE"
 ?>
 
 <!doctype html>
@@ -21,5 +21,4 @@ $nomsite = "Nom Site"
         include 'inc/header.php';
         ?>
     </div>
-    <div class="maincontent  w3-display-container w3-center">
         
