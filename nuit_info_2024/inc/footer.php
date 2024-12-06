@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" id="footer">
     <ul>
         <li><a href="mentions-legales.php">Mentions légales</a></li>
         <li><a href="politique-confidentialite.php">Politique de confidentialité</a></li>

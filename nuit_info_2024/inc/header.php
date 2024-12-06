@@ -8,7 +8,7 @@ $list_pages = array(
 );
 ?>
 
-<div class="navbar">
+<div class="navbar" id ="navbar">
   <div class="logo">
     <a href="index.php"><img src="img/1.png" alt="Description de l'image"></a>
   </div>
