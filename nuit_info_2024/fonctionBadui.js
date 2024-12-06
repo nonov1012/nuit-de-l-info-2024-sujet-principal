@@ -1,6 +1,7 @@
 function styleToRadio(body) {
-  navbar.classList.toggle("radio");
+//   navbar.classList.toggle("radio");
   body.classList.toggle("radio");
+//   footer.classList.toggle("radio");
 }
 
 function styleToInfrarouge() {
@@ -16,7 +17,8 @@ function styleToNocturne() {
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft") {
-    styleToRadio();
+    const body = document.getElementById("body");
+    styleToRadio(body);
     message.textContent = "Flèche gauche appuyée";
   } else if (event.key === "ArrowRight") {
     styleToInfrarouge();
