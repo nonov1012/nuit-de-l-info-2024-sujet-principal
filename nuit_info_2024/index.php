@@ -2,6 +2,10 @@
 include __DIR__ . '/inc/head.php';
 ?>
 
+<!-- Background -->
+<p id="controls"></p>
+<div id="tank"></div>
+
 <!-- Body -->
 <div class="container">
     <section class="intro">
