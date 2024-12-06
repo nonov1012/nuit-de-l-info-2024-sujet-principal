@@ -4,13 +4,18 @@ body {
   padding-left: 225px;
   padding-right: 225px;
 }
+body.basique {
+  background-color: #aab5ff;
+  padding-left: 225px;
+  padding-right: 225px;
+}
 
 body.nocturne {
   background-color: rgb(44, 189, 44);
-  color : rgb(1, 70, 1);
+  color: rgb(1, 70, 1);
 }
 
-body.infrarouge{
+body.infrarouge {
   background-color: palevioletred;
 }
 
@@ -59,6 +64,22 @@ body.infrarouge{
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
 }
 
+.navbar.basique {
+  background-color: #0920ba;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 20px 10px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
 .navbar.radio {
   background-color: transparent;
 }
@@ -88,7 +109,7 @@ body.infrarouge{
 /* Nocturne */
 .navbar.nocturne {
   background-color: rgb(1, 70, 1);
-  color : rgb(4, 208, 4);
+  color: rgb(4, 208, 4);
 }
 
 .navbar.nocturne .nav-links a {
@@ -177,14 +198,29 @@ body.infrarouge{
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
 }
 
-.footer.radio{
+.footer.basique {
+  background-color: red;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 20px 10px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer.radio {
   background-color: transparent;
 }
 /* Infrarouge */
 .footer.infrarouge {
   background-color: rgba(255, 255, 255, 0.779);
   color: rgb(179, 179, 179);
-
 }
 
 .footer.infrarouge a {
