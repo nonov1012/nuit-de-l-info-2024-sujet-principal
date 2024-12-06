@@ -2,28 +2,37 @@ body{
     background-color: #AAB5FF;
 }
 
-/* ----------NAVBAR---------- */
+/* ----------HEADER---------- */
 .navbar {
-    background-color: #0920BA;
+    background-color: #0920BA; 
+    color: white;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%; /* Le header occupe toute la hauteur */
+    width: 200px; /* Largeur de la barre latérale */
+    z-index: 20; 
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    padding: 10px 20px;
-    position: relative; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    flex-direction: column; /* Disposition verticale */
+    justify-content: flex-start; /* Les éléments commencent en haut */
+    align-items: center;
+    padding: 20px 10px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2); /* Ombre verticale */
 }
 
 /* Logo */
 .navbar .logo img {
-    height: 50px; 
+    height: 60px; /* Taille du logo */
     display: block;
+    margin-bottom: 20px; /* Espacement avec les liens */
 }
 
 /* Navigation Links */
 .navbar .nav-links {
-    position: absolute;
-    left: 50%; 
-    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column; /* Organisation verticale */
+    align-items: center;
+    width: 100%; /* Prend toute la largeur disponible */
 }
 
 .navbar .nav-links ul {
@@ -31,12 +40,14 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    flex-direction: column; /* Disposition verticale */
+    gap: 15px; /* Espacement entre les liens */
+    width: 100%; /* Prend toute la largeur */
+    align-items: center;
 }
 
 .navbar .nav-links li {
-    margin: 0 15px;
+    margin: 0;
 }
 
 .navbar .nav-links a {
@@ -44,6 +55,8 @@ body{
     padding: 12px 20px;
     border-radius: 30px;
     text-decoration: none;
+    width: 100%; /* Les liens occupent toute la largeur */
+    text-align: center; /* Texte centré */
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -53,6 +66,7 @@ body{
     transform: translateY(-2px);
 }
 
+
 /* ----------FOOTER---------- */
 .footer {
     background-color: #0920BA; 
@@ -60,11 +74,17 @@ body{
     text-align: center;
     padding: 20px 10px; 
     font-family: "Arial", sans-serif;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2); /* Ombre verticale */
     position: fixed; 
-    bottom: 0; 
-    width: 100%; 
-    z-index: 10;
+    top: 0; 
+    left: 0; 
+    height: 100%; /* Le footer occupe toute la hauteur */
+    width: 200px; /* Largeur de la barre */
+    z-index: 10; 
+    display: flex;
+    flex-direction: column; /* Organisation verticale */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center;
 }
 
 .footer ul {
@@ -72,12 +92,12 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; 
+    flex-direction: column; /* Disposition verticale */
     gap: 15px; 
 }
 
 .footer ul li {
-    display: inline;
+    display: block;
 }
 
 .footer a {
@@ -95,10 +115,6 @@ body{
 }
 
 .footer p {
-    margin-top: 10px;
     font-size: 12px;
-}
-
-.b{
-    height: 80%;
+    margin-top: 20px; /* Espacement supplémentaire en bas */
 }
