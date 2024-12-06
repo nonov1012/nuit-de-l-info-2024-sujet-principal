@@ -21,7 +21,7 @@ include __DIR__ . '/inc/head.php';
         font-size: 2em;
     }
 
-    .container {
+    .container2 {
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -125,6 +125,7 @@ include __DIR__ . '/inc/head.php';
 
     /* IMPORTATION DES FONTS */
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    
 </style>
 <div class="wrapper">
     <div class="header-wrap">
@@ -132,7 +133,7 @@ include __DIR__ . '/inc/head.php';
     </div>
 </div>
 <h1>Reliez les éléments</h1>
-<div class="container">
+<div class="container2">
     <div class="column" id="human-column">
         <h2>Corps Humain</h2>
         <ul>
