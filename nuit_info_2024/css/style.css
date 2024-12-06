@@ -102,3 +102,8 @@ body{
 .b{
     height: 80%;
 }
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
