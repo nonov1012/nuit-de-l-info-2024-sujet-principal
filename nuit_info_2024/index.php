@@ -4,9 +4,8 @@ include __DIR__ . '/inc/head.php';
 
 <!-- Background -->
 <p id="controls"></p>
-<div id="tank"></div>
-
-<!-- Body -->
+<div id="tank">
+    <!-- Body -->
 <div class="container">
     <section class="intro">
         <h2>Bienvenue sur l'application éducative</h2>
@@ -36,6 +35,9 @@ include __DIR__ . '/inc/head.php';
         <a href="https://ocean-climate.org/sensibilisation/" class="btn">En savoir plus et agir</a>
     </section>
 </div>
+
+</div>
+
 
 <?php
 include __DIR__ . '/inc/footer.php';
