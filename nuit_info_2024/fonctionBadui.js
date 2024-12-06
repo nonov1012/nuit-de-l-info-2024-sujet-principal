@@ -9,11 +9,10 @@ function styleToInfrarouge() {
   body.classList.toggle("infrarouge");
 }
 function styleToNocturne() {
+  body.classList.toggle("nocturne");
   navbar.classList.toggle("nocturne");
   footer.classList.toggle("nocturne");
-  body.classList.toggle("nocturne");
 }
-
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft") {

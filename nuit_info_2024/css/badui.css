@@ -6,7 +6,8 @@ body {
 }
 
 body.nocturne {
-  background-color: green;
+  background-color: rgb(44, 189, 44);
+  color : rgb(1, 70, 1);
 }
 
 body.infrarouge{
@@ -87,11 +88,12 @@ body.infrarouge{
 
 /* Nocturne */
 .navbar.nocturne {
-  background-color: rgb(4, 255, 4);
+  background-color: rgb(1, 70, 1);
+  color : rgb(4, 208, 4);
 }
 
 .navbar.nocturne .nav-links a {
-  color: green;
+  color: rgb(4, 208, 4);
   padding: 12px 20px;
   border-radius: 30px;
   text-decoration: none;
@@ -101,7 +103,7 @@ body.infrarouge{
 }
 
 .navbar.nocturne .nav-links a:hover {
-  background-color: green;
+  background-color: rgb(1, 70, 1);
   color: black;
   transform: translateY(-2px);
 }
@@ -200,12 +202,12 @@ body.infrarouge{
 
 /* nocturne */
 .footer.nocturne {
-  background-color: rgb(4, 255, 4);
-  color: green;
+  background-color: rgb(1, 70, 1);
+  color: rgb(4, 208, 4);
 }
 
 .footer.nocturne a {
-  color: green;
+  color: rgb(4, 208, 4);
   text-decoration: none;
   font-size: 14px;
   padding: 5px 10px;
@@ -214,7 +216,7 @@ body.infrarouge{
 }
 
 .footer.nocturne a:hover {
-  background-color: rgb(4, 255, 4);
+  background-color: rgb(1, 70, 1);
   color: black;
 }
 /* Fin  nocturne */
