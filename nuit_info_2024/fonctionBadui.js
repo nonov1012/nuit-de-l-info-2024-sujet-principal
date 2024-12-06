@@ -1,7 +1,7 @@
 function styleToRadio(body) {
-//   navbar.classList.toggle("radio");
   body.classList.toggle("radio");
-//   footer.classList.toggle("radio");
+  navbar.classList.toggle("radio");
+  footer.classList.toggle("radio");
 }
 
 function styleToInfrarouge() {
@@ -14,11 +14,26 @@ function styleToNocturne() {
   navbar.classList.toggle("nocturne");
   footer.classList.toggle("nocturne");
 }
+const compteur = 0;
 
 document.addEventListener("keydown", (event) => {
+  if (event.ctrlKey && event.shiftKey && event.key === "T") {
+    compteur += 1;
+  }
+  switch (compteur) {
+    case 1:
+      const body = document.getElementById("body");
+
+      styleToRadio(body, navbar);
+      break;
+
+      case 2 :
+        
+
+    default:
+      break;
+  }
   if (event.key === "ArrowLeft") {
-    const body = document.getElementById("body");
-    styleToRadio(body);
     message.textContent = "Flèche gauche appuyée";
   } else if (event.key === "ArrowRight") {
     styleToInfrarouge();
