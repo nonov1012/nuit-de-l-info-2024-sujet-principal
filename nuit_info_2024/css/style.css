@@ -113,6 +113,13 @@ body{
     margin-right: 15%;
 }
 
+.multimedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 video {
-    width: 500px;
+    max-width: 50%;
+    max-height: 50%;
 }
