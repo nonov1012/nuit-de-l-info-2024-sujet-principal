@@ -127,7 +127,7 @@ include __DIR__ . '/inc/head.php';
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     
 </style>
-<div class="wrapper">
+<div class="wrapper" style="margin-top: 50px;">
     <div class="header-wrap">
         <h1>3D Retro Buttons</h1>
     </div>
