@@ -3,6 +3,7 @@ $list_pages = array(
   'index.php' => 'Accueil',
   'badui.php' => 'Bad UI',
   'comparaison.php' => 'Comparaison',
+  'jeu.php' => 'Jeu',
   'apropos.php' => 'A propos',
 );
 ?>
