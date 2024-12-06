@@ -13,8 +13,15 @@ include dirname(__FILE__) . "/inc/footer.php";
 <body id="body">
     <h1 class="title">Pressez une touche du clavier sa doit faire un truc (je crois)</h1>
     <div class="indice">alt + h</div>
-    <div id="message">Aucune touche pressée</div>
     <script src="fonctionBadui.js"></script>
+    <div class="message">L'interphase vous plé t'il ?</div>
+    <a href="/NuitDeLInfo/nuit_info_2024/index.php">
+        <input id="oui" class="oui" value="Oui" type="button">
+    </a>
+    <a href="/NuitDeLInfo/nuit_info_2024/index.php">
+        <input id="non" class="non" value="Non" type="button">
+    </a>
+
 </body>
 
 <?php

@@ -23,7 +23,6 @@ function styleToBasique() {
 }
 
 let compteur = 0;
-const message = document.getElementById("message");
 
 document.addEventListener("keydown", (event) => {
   const body = document.body;
