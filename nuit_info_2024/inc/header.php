@@ -3,8 +3,7 @@ $list_pages = array(
   'index.php' => 'Accueil',
   'badui.php' => 'Bad UI',
   'services.php' => 'Services',
-  'apropos.php' => 'À propos',
-  'contact.php' => 'Contact',
+  'impact.php' => 'Impact écologique',
 );
 ?>
 
