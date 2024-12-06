@@ -11,7 +11,8 @@ include dirname(__FILE__) . "/inc/footer.php";
 ?>
 
 <body id="body">
-    <h1>Appuyez sur les flèches gauche et droite</h1>
+    <h1 class="title">Pressez une touche du clavier sa doit faire un truc (je crois)</h1>
+    <div class="indice">alt + h</div>
     <div id="message">Aucune touche pressée</div>
     <script src="fonctionBadui.js"></script>
 </body>
